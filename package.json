@@ -1,0 +1,24 @@
+{
+  "name": "packaging",
+  "version": "1.0.0",
+  "description": "Nevada cannabis production facility label templates for Zebra ZD420 thermal printer. All labels comply with **NCCR Regulation 12** (July 2025 revision).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cannavativebots-sudo/Packaging.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/cannavativebots-sudo/Packaging/issues"
+  },
+  "homepage": "https://github.com/cannavativebots-sudo/Packaging#readme",
+  "dependencies": {
+    "docx": "^9.6.1"
+  }
+}
