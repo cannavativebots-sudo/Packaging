@@ -5,13 +5,13 @@ All labels comply with **NCCR Regulation 12** (July 2025 revision).
 
 ## Printer
 - **Zebra ZD420** @ 203 DPI
-- Label stock: 2" x 2" direct thermal (see printer-setup/ for purchasing info)
+- Label stock: **2" × 2"** direct thermal — Uline S-21297 (see printer-setup/ for full purchasing info)
 
 ## Labels
 
 | Label | File | Size | Status |
 |---|---|---|---|
-| Resin8 Disposable | labels/resin8-disposable/ | 50mm x 51mm | ✅ Ready |
+| Resin8 Disposable | labels/resin8-disposable/ | 2" x 2" (50.8mm x 50.8mm) | ✅ Ready |
 
 ## Repository Structure
 

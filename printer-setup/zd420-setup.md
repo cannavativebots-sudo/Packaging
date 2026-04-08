@@ -12,11 +12,9 @@
 | Perforation | Die-cut, gap-sensing |
 
 **Where to buy:**
-- Zebra genuine: part # 10010044 (2"x2" DT, 2580/roll)
-- Amazon alternatives: search "2x2 direct thermal labels 1" core" — brands like OfficeSmartLabels, MFLABEL work fine
-- Uline: S-21297 (2"x2" white thermal, 500/roll desktop qty)
-
-> If 50mm x 40mm exactly is preferred: order **2" x 1.57"** custom cut from a label converter (Uline, Lightning Labels, or StickerGiant offer custom sizes). Standard 2"x2" is the closest off-the-shelf option.
+- Zebra genuine: part # 10010044 (2"×2" DT, 2580/roll)
+- Amazon alternatives: search "2x2 direct thermal labels 1 inch core" — brands like OfficeSmartLabels, MFLABEL work fine
+- **Uline: S-21297** (2"×2" white thermal, 500/roll — desktop qty, no min order)
 
 ---
 
@@ -35,8 +33,8 @@ Open a connection to the printer (USB or network) and send this one-time config 
 ```zpl
 ^XA
 ^MMT              ; tear-off mode (change to ^MMC for cutter if installed)
-^PW399            ; print width = 50mm (399 dots at 203dpi)
-^LL406            ; label length = 51mm (406 dots at 203dpi)
+^PW406            ; print width = 2" (406 dots at 203dpi)
+^LL406            ; label length = 2" (406 dots at 203dpi)
 ^MAN              ; auto-sense label gap
 ^PR4,4            ; print speed 4 ips / slew speed 4 ips
 ^MD10             ; darkness 10 (adjust 0-30 to taste; start at 10)
@@ -52,7 +50,7 @@ Open a connection to the printer (USB or network) and send this one-time config 
 
 ### Step 3 — Calibrate media
 
-After loading 2"x2" label stock:
+After loading 2"×2" label stock:
 1. Press and hold **FEED** button for 2 seconds — printer will advance and measure gap
 2. Print a test label to confirm positioning
 
@@ -77,8 +75,7 @@ These are set **inside each ZPL label** (see the template file).
 | 5mm | 40 dots |
 | 10mm | 80 dots |
 | 25.4mm (1") | 203 dots |
-| 50mm (2") | 399 dots |
-| 51mm (2.008") | 406 dots |
+| 50.8mm (2") | 406 dots |
 
 **8-point font minimum (NCCR 12.010):**
 - 8pt = 8/72 inch = 0.111" = 22.6 dots
